@@ -32,7 +32,10 @@ export default new VueRouter({
     },
     {
       path:'/order',
-      component:Order
+      component:Order,
+      meta:{
+        showFooter:true
+      }
     },
     {
       path:'/profile',
